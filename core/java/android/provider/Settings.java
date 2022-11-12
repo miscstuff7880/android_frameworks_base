@@ -10889,6 +10889,14 @@ public final class Settings {
          */
         public static final String MONET_ENGINE_CHROMA_FACTOR = "monet_engine_chroma_factor";
 
+
+        /**
+         * Custom Color override (default null)
+         * @hide
+         */
+        @Readable
+        public static final String MONET_ENGINE_CUSTOM_COLOR = "monet_engine_custom_color";
+
         /**
          * Custom lightness scale (default 0)
          * @hide
